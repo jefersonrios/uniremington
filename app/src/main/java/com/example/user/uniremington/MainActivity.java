@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String email = ((EditText) findViewById(R.id.email)).getText().toString();
                 String password = ((EditText) findViewById(R.id.password)).getText().toString();
-                if (email.equals("jriosg@uniremingtonmanizales") && password.equals("1053790188"))
+                if (email.equals("jriosg@uniremington") && password.equals("1053790188"))
                 {
                     Intent Nuevoform = new Intent(MainActivity.this,Main2Activity.class);
                     startActivity(Nuevoform);
