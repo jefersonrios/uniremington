@@ -2,6 +2,7 @@ package com.example.user.uniremington;
 
 import android.content.Intent;
 import android.net.Uri;
+import android.support.annotation.IdRes;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.InputType;
@@ -30,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         opcionMostrar = (CheckBox) findViewById(R.id.Email);
         campoContrasena = (EditText) findViewById(R.id.email);
         ingresar = (Button) findViewById(R.id.ingresar);
+        Radio = (RadioGroup) findViewById(R.id.Radio);
         ingresar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -44,6 +46,14 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(ingresar.getContext(), "usuario y/o contraseña incorrectos", Toast.LENGTH_SHORT).show();
                 }
 
+
+                Radio.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+                    @Override
+                    public void onCheckedChanged(RadioGroup group, @IdRes int checkedId) {
+                        Intent intent = new Intent(getApplicationContext(), MainActivityvalidacion.class);
+                        startActivity(intent);
+                    }
+                });
             }
 
             public void mostrarContraseña(View v) {
@@ -64,14 +74,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-
-    public void validacion(View view) {
-        switch (Radio.getCheckedRadioButtonId()) {
-            case R.id.radio: {
-                Intent intent = new Intent(this,MainActivityvalidacion.class);
-                startActivity(intent);
-
-            }
-        }
-    }
 }
+
+

@@ -12,7 +12,7 @@
         tools:layout_editor_absoluteY="8dp"
         tools:layout_editor_absoluteX="0dp">
 
-    </ScrollView>
+
 
 
     <LinearLayout
@@ -98,8 +98,10 @@
 
 
     </LinearLayout>
-
+    </ScrollView>
 
 
 </android.support.constraint.ConstraintLayout>
+
+
 

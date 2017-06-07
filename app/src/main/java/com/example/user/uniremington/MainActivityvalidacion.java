@@ -16,7 +16,7 @@ public class MainActivityvalidacion extends AppCompatActivity {
 
         this.setContentView(R.layout.activity_main_activityvalidacion);
         WebView myWebView = (WebView) this.findViewById(R.id.validacion);
-        myWebView.loadUrl("https://www.q10academico.com/login?ReturnUrl=/&aplentId=a2e25504-9d7b-4e4e-861a-5f015f373d8f");
+        myWebView.loadUrl("https://www.q10academico.com/RecuperarContrasena?aplentId=a2e25504-9d7b-4e4e-861a-5f015f373d8f");
 
 
     }
