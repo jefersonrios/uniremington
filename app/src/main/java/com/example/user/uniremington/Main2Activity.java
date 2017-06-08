@@ -78,7 +78,7 @@ public class Main2Activity extends AppCompatActivity implements AdapterView.OnIt
                 }
                 if (seleccionplataformas==2)
                 {
-                    this.intent = new Intent(this,Main3Activity.class);
+                    this.intent = new Intent(this,Main4Activity.class);
                     startActivity(intent);
                 }
                 if (seleccionplataformas==3)

@@ -16,13 +16,12 @@ public class Main3Activity extends AppCompatActivity {
         setContentView(R.layout.activity_main3);
 
         this.setContentView(R.layout.activity_main3);
-        WebView myWebView = (WebView) this.findViewById(R.id.Webview);
+        WebView myWebView = (WebView) this.findViewById(R.id.q10);
         myWebView.loadUrl("https://www.q10academico.com/login?ReturnUrl=/&aplentId=a2e25504-9d7b-4e4e-861a-5f015f373d8f");
-
-
     }
 
 }
+
 
 
 

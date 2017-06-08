@@ -96,6 +96,20 @@
                 android:textColor="?attr/actionModeSplitBackground" />
         </RadioGroup>
 
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.12"
+            app:srcCompat="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/logo" />
+
 
     </LinearLayout>
     </ScrollView>
