@@ -50,17 +50,17 @@ public class Main2Activity extends AppCompatActivity implements AdapterView.OnIt
                 int seleccionprogramas = pagina_programas.getSelectedItemPosition();
                 if (seleccionprogramas==1)
                 {
-                    this.intent = new Intent(this,Main3Activity.class);
+                    this.intent = new Intent(this,Main8Activity.class);
                     startActivity(intent);
                 }
                 if (seleccionprogramas==2)
                 {
-                    this.intent = new Intent(this,Main3Activity.class);
+                    this.intent = new Intent(this,Main9Activity.class);
                     startActivity(intent);
                 }
                 if (seleccionprogramas==3)
                 {
-                    this.intent = new Intent(this,Main3Activity.class);
+                    this.intent = new Intent(this,Main10Activity.class);
                     startActivity(intent);
                 }
 
@@ -83,7 +83,7 @@ public class Main2Activity extends AppCompatActivity implements AdapterView.OnIt
                 }
                 if (seleccionplataformas==3)
                 {
-                    this.intent = new Intent(this,Main3Activity.class);
+                    this.intent = new Intent(this,Main5Activity.class);
                     startActivity(intent);
                 }
         }
@@ -93,12 +93,12 @@ public class Main2Activity extends AppCompatActivity implements AdapterView.OnIt
                 int seleccionubicacion = ubicacion.getSelectedItemPosition();
                 if (seleccionubicacion==1)
                 {
-                    this.intent = new Intent(this,Main3Activity.class);
+                    this.intent = new Intent(this,Main6Activity.class);
                     startActivity(intent);
                 }
                 if (seleccionubicacion==2)
                 {
-                    this.intent = new Intent(this,Main3Activity.class);
+                    this.intent = new Intent(this,Main7Activity.class);
                     startActivity(intent);
                 }
         }
